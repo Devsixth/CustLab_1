@@ -4,7 +4,7 @@ import numpy as np
 import plotly.express as px
 from streamlit_option_menu import option_menu
 
-df=pd.read_csv('E:/Excel files/user_purchase_rating.csv')
+df=pd.read_csv('user_purchase_rating.csv')
 st.title('Shopping Details:')
 
 with st.sidebar:
